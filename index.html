@@ -73,11 +73,18 @@
 
       <div class="delete-stuff">
         <button class="btn delete">Clear completed tasks</button>
-        <button class="btn delete">Delete list</button>
+        <button class="btn delete" data-delete-list-button>Delete list</button>
       </div>
     </div>
   </div>
-
+  <template id="task-template">
+    <div class="task">
+      <input type="checkbox" />
+      <label>
+        <span class="custom-checkbox"></span>
+      </label>
+    </div>
+  </template>
 
   </div>
 </body>
